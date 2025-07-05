@@ -1,0 +1,74 @@
+[
+    {
+        "student_id": "S002",
+        "name": "Bob",
+        "department": "IT",
+        "year": 1
+    },
+    {
+        "student_id": "S003",
+        "name": "Charlie",
+        "department": "CSE",
+        "year": 3
+    },
+    {
+        "student_id": "S004",
+        "name": "Diana",
+        "department": "AI & ML",
+        "year": 4
+    },
+    {
+        "student_id": "S005",
+        "name": "Ethan",
+        "department": "Data Science",
+        "year": 2
+    },
+    {
+        "student_id": "S006",
+        "name": "Fiona",
+        "department": "Cyber Security",
+        "year": 1
+    },
+    {
+        "student_id": "S007",
+        "name": "George",
+        "department": "Software Engineering",
+        "year": 3
+    },
+    {
+        "student_id": "S008",
+        "name": "Hannah",
+        "department": "Cloud Computing",
+        "year": 4
+    },
+    {
+        "student_id": "S009",
+        "name": "Ivan",
+        "department": "Blockchain",
+        "year": 2
+    },
+    {
+        "student_id": "S010",
+        "name": "Julia",
+        "department": null,
+        "year": 1
+    },
+    {
+        "student_id": "S011",
+        "name": "surendra",
+        "department": "it",
+        "year": "3"
+    },
+    {
+        "student_id": "S012",
+        "name": "Vijay",
+        "department": "CSE[AI&ML]",
+        "year": "4"
+    },
+    {
+        "student_id": "S013",
+        "name": "Pavan",
+        "department": "CSE",
+        "year": "2"
+    }
+]
