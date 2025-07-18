@@ -58,7 +58,7 @@ from pymongo import MongoClient:
 - opening a communicate channel to your MongoDB server.
 
 #### database = client[db_name]
--Access the database using the client object.
+- Access the database using the client object.
 - Here, you're selecting your target database: "Resume_db".
 
 #### collection = database[sampled_data]
