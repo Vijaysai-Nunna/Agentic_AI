@@ -41,6 +41,30 @@ client = MongoClient("your_mongo_url")
 db = client['Resume_db']
 collection = db['sampled_data']
 ```
+#### Explanation of Code:
+from pymongo import MongoClient: 
+- Import MongoClient from the pymongo library.
+- This is a connection between Python and MongoDB.
+
+#### mongo_url
+- Your MongoDB connection string.
+#### db_name
+- The name of your MongoDB database.
+
+#### sampled_data: 
+- The collection name inside that database.
+#### client = MongoClient("your_mongo_url")
+- client object connects your Python code to MongoDB using the provided URL.This is like 
+- opening a communicate channel to your MongoDB server.
+
+#### database = client[db_name]
+-Access the database using the client object.
+- Here, you're selecting your target database: "Resume_db".
+
+#### collection = database[sampled_data]
+- Access the collection inside the database.
+- This collection is where you will perform operations like insert, find, update, and delete.
+
 ### 2.3 CRUD Examples:
 #### Insert One Document:
 
