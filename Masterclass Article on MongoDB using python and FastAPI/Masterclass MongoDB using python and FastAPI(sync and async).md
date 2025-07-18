@@ -289,7 +289,7 @@ Q6. How does FastAPI handle auto-documentation for async routes?
 ---
 ## Section 7: Links
 
-Github Link: https://github.com/Vijaysai-Nunna/Agentic_AI/tree/Vijay
+Github Link: 
 
 ## Section 8: Conclusion
 
