@@ -13,10 +13,10 @@ interview questions and answers.
 - Works with collections and documents, ideal for semi-structured or unstructured data.
 
 ### 1.2 Setting Up MongoDB Atlas
-- 1. Visit https://cloud.mongodb.com
-- 2. Create a free cluster.
-- 3. Setup database and collection.
-- 4. Whitelist IP and get your connection URI.
+1. Visit https://cloud.mongodb.com
+2. Create a free cluster.
+3. Setup database and collection.
+4.  Whitelist IP and get your connection URI.
 
 Example .env variable:
 ```python
@@ -188,21 +188,6 @@ async def get_users_async():
 ---
 ## Section 5: Sync vs Async Explained
 
-Feature                    Sync (FastAPI + PyMongo)                 Async (FastAPI + Motor)
-
-Architecture                   WSGI (Blocking)                        ASGI (Non-blocking)
-
-Request                        Handling Blocking                      Non-blocking
-
-Performance                    Limited concurrency                    High concurrency
-
-Syntax                         Simple functions                        async/await needed
-
-
-
-
-
-
 | Feature| FastAPI + Pymongo(Sync) | FastAPI + Motor(Async) |
 |-----------|----------------|-----------------|
 | Architecture |WSGI (Blocking)  | ASGI (Non-blocking) |
@@ -236,136 +221,44 @@ async def async_task():
 ### MongoDB — Interview Questions and Answers
 
 Q1. What is MongoDB?
-
-A): MongoDB is a NoSQL database that stores data in JSON-like documents called BSON. It is
-schema-less and scalable.
-
 Q2. What is the difference between a Collection and a Document?
-
-A): A collection is like a table in SQL, holding multiple documents. A document is a
-JSON-like data record.
-
 Q3. Why is MongoDB preferred over SQL for modern applications?
-
-A): MongoDB is flexible (schema-less), horizontally scalable, and handles unstructured or
-semi-structured data well.
-
 Q4. How does indexing work in MongoDB?
-
-A): Indexes improve query speed by allowing MongoDB to avoid scanning every document in a
-collection.
-
 Q5. How can you connect MongoDB to a cloud cluster?
-
-A): Using MongoDB Atlas by creating a cluster and connecting using a connection URI.
-
 Q6. What is MongoDB and what format does it use for storing data?
-
-A): MongoDB is a NoSQL database using BSON (Binary JSON) to store data.
-
-Q7. Explain collections and documents in MongoDB.
-
-A): Collections are similar to SQL tables; documents are JSON-like data structures.
-
+Q7. Explain collections and documents in MongoDB?
 Q8. What is BSON?
-
-A): BSON stands for Binary JSON; optimized for speed and storage in MongoDB.
-
 Q9. Why use MongoDB Atlas?
 
-A): For cloud-hosted MongoDB clusters with easy scaling and access.
-
 ---
-
 ### MongoDB with Python (PyMongo) — Interview Questions and Answers
 
 Q1. What is PyMongo?
-
-A): PyMongo is the official Python driver to connect and perform CRUD operations with
-MongoDB databases.
-
 Q2. How do you establish a connection using PyMongo?
-```python
-A):from pymongo import MongoClient  
-client = MongoClient('your_mongo_uri')
-```
 Q3. How do you insert a single document in PyMongo?
-```python
-A): collection.insert_one({"name": "Vijay", "age": 23})
-```
 Q4. How to retrieve all documents from a collection?
-```python
-A):for doc in collection.find():
-    print(doc)
-```
 Q5. How can you update data in PyMongo?
-```python
-A):collection.update_one({"name": "Vijay"}, {"$set": {"age": 24}})
-```
 Q6. Can PyMongo handle regex filtering?
 
-A): Yes. 
-Example:
-- collection.find({"name": {"$regex": "^V"}})
 ---
 ### MongoDB with FastAPI (Synchronous - PyMongo) — Interview Questions and Answers
 
 Q1. Why use PyMongo with FastAPI?
-
-A): To expose MongoDB CRUD operations as HTTP APIs using FastAPI’s synchronous route handling.
-
 Q2. How is synchronous CRUD implemented in FastAPI?
-
-A): Define standard (non-async) functions and call PyMongo inside route handlers.
-
 Q3. Can FastAPI auto-generate Swagger docs for APIs?
-
-A): Yes, FastAPI automatically creates Swagger UI at /docs.
-
 Q4. What is the role of Uvicorn in FastAPI?
-
-A): Uvicorn is an ASGI server that runs FastAPI applications.
-
 Q5. When should you prefer sync MongoDB usage in FastAPI?
-
-A): In simple or small-scale applications where high concurrency is not a concern.
-
 Q6. How to insert data in FastAPI synchronously?
-```python
-A):@app.post(\"/insert\")
-def insert(name: str, age: int):
-    collection.insert_one({\"name\": name, \"age\": age})
- ```
----
 
+---
 ### MongoDB with FastAPI (Asynchronous - Motor) — Interview Questions and Answers
 
 Q1. What is Motor?
-
-A): Motor is an asynchronous MongoDB driver designed for Python and works with async
-frameworks like FastAPI.
-
 Q2. Why use async/await in FastAPI with MongoDB?
-
-A): For non-blocking, high-performance APIs that can handle concurrent requests efficiently.
-
 Q3. How do you perform an async insert in FastAPI using Motor?
-
-A): await collection.insert_one({\"name\": \"Vijay\", \"age\": 23})
-
 Q4. What is the benefit of ASGI over WSGI?
-
-A): ASGI allows asynchronous communication, essential for building scalable, concurrent
-applications.
-
 Q5. Where is async CRUD useful?
-
-A): In production systems, chat applications, real-time APIs, or any environment expecting
-many parallel users.
-
 Q6. How does FastAPI handle auto-documentation for async routes?
-
-A): Similar to sync routes, Swagger docs are auto-generated for async endpoints.
 
 ---
 ## Section 7: Links
