@@ -1,4 +1,4 @@
-# MongoDB Integration with Python and FastAPI
+# MongoDB Integration with Python and FastAPI(using sync and async)
 ## Overview:
 - This learning guide focuses exclusively on MongoDB integration using Python and FastAPI,
 covering both synchronous and asynchronous approaches. Code examples and conceptual
