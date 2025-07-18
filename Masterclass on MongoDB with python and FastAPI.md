@@ -156,12 +156,16 @@ pip install motor fastapi uvicorn
 ```python
 from fastapi import FastAPI
 from motor.motor_asyncio import AsyncIOMotorClient
+from pydantic import BaseModel
 
 app = FastAPI()
-
 client = AsyncIOMotorClient("your_mongo_url")
 db = client['Resume_db']
 collection = db['sampled_data']
+
+class Book(BaseModel):
+    name: str
+    age: int
 ```
 #### Async Endpoint Example:
 ```python 
