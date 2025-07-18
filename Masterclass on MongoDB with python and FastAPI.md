@@ -70,9 +70,10 @@ from pymongo import MongoClient:
 
 ```python
 collection.insert_one({"name": "Vijay", "age": 23})
+```
 
-Find All Documents:
-
+#### Find All Documents:
+```python
 for doc in collection.find():
     print(doc)
 ```
