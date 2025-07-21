@@ -3,3 +3,5 @@ pymongo
 motor
 uvicorn
 python-dotenv
+pip install motor
+pip install python-dotenv
