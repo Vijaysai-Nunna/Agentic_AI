@@ -1,0 +1,36 @@
+[{
+  "_id": "EMP24024",
+  "name": "Spandana Vaishu",
+  "position": "Data analyst",
+  "salary": 75000,
+  "area": "pune"
+},
+{
+  "_id": "EMP24012",
+  "name": "Santosh hari",
+  "position": "Python developer",
+  "salary": 60000,
+  "area": "Hyderabad"
+},
+{
+  "_id": "EMP24031",
+  "name": "Hari ganesh",
+  "position": "Java developer",
+  "salary": 65000,
+  "area": "Pune"
+},
+{
+  "_id": "EMP24080",
+  "name": "Ali farhan",
+  "position": "AI developer",
+  "salary": 85000,
+  "area": "Mumbai"
+},
+{
+  "_id": "EMP24007",
+  "name": "Vijay Sai Nunna",
+  "position": "AgenticAI developer",
+  "salary": 100000,
+  "area": "Vijayawada",
+  "emp_id": "EMP20007"
+}]

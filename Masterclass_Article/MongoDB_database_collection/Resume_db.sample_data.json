@@ -1,0 +1,22 @@
+[{
+  "_id": "EMP24056",
+  "name": "Vishal Saho",
+  "position": "Data Engineer",
+  "salary": 85000,
+  "area": "Lahore",
+  "emp_id": "EMP24056"
+},
+{
+  "_id": "EMP24050",
+  "name": "Siddharth nandan",
+  "position": "Data Scientist",
+  "salary": 90000,
+  "area": "Banglore"
+},
+{
+  "_id": "EMP24070",
+  "name": "Pavan Pandu",
+  "position": "Middle ware developer",
+  "salary": 60000,
+  "area": "Hyderabad"
+}]

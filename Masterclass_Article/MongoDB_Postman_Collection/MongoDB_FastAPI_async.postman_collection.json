@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "b110f5ba-80b3-4e93-b04f-3324a1d192cb",
+		"name": "MongoDB_FastAPI_async",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "44739989",
+		"_collection_link": "https://lunar-moon-3403246.postman.co/workspace/Vijaysai_Nunna's-Workspace~233b5b46-1998-48f4-83a9-258845dc44cf/collection/44739989-b110f5ba-80b3-4e93-b04f-3324a1d192cb?action=share&source=collection_link&creator=44739989"
+	},
+	"item": [
+		{
+			"name": "Create_employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emp_id\":\"EMP24000\",\r\n    \"name\":\"Pavan sai\",\r\n    \"position\":\"Middle ware developer\",\r\n    \"salary\":60000.0,\r\n    \"area\":\"Hyderabad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000 /employee_async"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_all_employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000 /employees_async"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_emp_by_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000 /employee_async/EMP24056"
+			},
+			"response": []
+		},
+		{
+			"name": "Updat_by_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"Vishal Saho\",\r\n        \"position\": \"Data Engineer\",\r\n        \"salary\": 85000.0,\r\n        \"area\": \"Lahore\",\r\n        \"emp_id\": \"EMP24056\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000 /employee_async/update/EMP24056"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_by_id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"Vishal Saho\",\r\n        \"position\": \"Data Engineer\",\r\n        \"salary\": 85000.0,\r\n        \"area\": \"Lahore\",\r\n        \"emp_id\": \"EMP24056\"\r\n    }"
+				},
+				"url": "http://127.0.0.1:8000 /employee_async/delete/EMP24000"
+			},
+			"response": []
+		}
+	]
+}

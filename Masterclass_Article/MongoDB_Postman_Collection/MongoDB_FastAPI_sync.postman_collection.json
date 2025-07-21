@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "072d8b8b-f346-4bd8-8229-d0142970d42b",
+		"name": "MongoDB_FastAPI_sync",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "44739989",
+		"_collection_link": "https://lunar-moon-3403246.postman.co/workspace/Vijaysai_Nunna's-Workspace~233b5b46-1998-48f4-83a9-258845dc44cf/collection/44739989-072d8b8b-f346-4bd8-8229-d0142970d42b?action=share&source=collection_link&creator=44739989"
+	},
+	"item": [
+		{
+			"name": "Create_employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emp_id\":\"EMP24024\",\r\n    \"name\":\"Spandana Vaishu\",\r\n    \"position\":\"Data analyst\",\r\n    \"salary\":75000.0,\r\n    \"area\":\"pune\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000 /employee"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_all_employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000 /employees"
+			},
+			"response": []
+		},
+		{
+			"name": "Get_by_emp_id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000 /employee/EMP0000"
+			},
+			"response": []
+		},
+		{
+			"name": "Update_employee_by_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Vijay Sai Nunna\",\r\n        \"position\": \"AgenticAI developer\",\r\n        \"salary\": 100000.0,\r\n        \"area\": \"Vijayawada\",\r\n        \"emp_id\": \"EMP20007\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000 /employee/update/EMP24007"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_by_id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000 /employee/delete/EMP24008"
+			},
+			"response": []
+		}
+	]
+}
