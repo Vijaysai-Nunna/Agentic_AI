@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-mongo_url = "mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/"
+mongo_url = "mongodb+srv://Username:password@dbname.mongodb.net/"
 db_name = "Resume_db"
 sampled_data = "sampled_data"
 
