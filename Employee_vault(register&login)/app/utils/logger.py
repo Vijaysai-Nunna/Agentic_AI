@@ -1,15 +1,8 @@
 import logging
 import os
 
-# Make sure logs directory exists
 os.makedirs("logs", exist_ok=True)
 
-# # Configure the logger
-# logging.basicConfig(
-#     filename="logs/users.log",
-#     level=logging.INFO,
-#     format="%(asctime)s - %(levelname)s - %(message)s"
-# )
 def setup_logger():
     """
     Setup logger for the application.
