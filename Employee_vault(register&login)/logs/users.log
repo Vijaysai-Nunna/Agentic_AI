@@ -1,0 +1,77 @@
+2025-07-27 14:31:25,896 - WARNING - User with Username Vijay sai email vjsai@gmail.com or phone 9652394215 already exists.
+2025-07-27 14:32:26,660 - WARNING - User with Username Vijay sai email vjsai@gmail.com or phone 9652394215 already exists.
+2025-07-27 14:48:34,292 - INFO - User Gowri ganesh vonna registered successfully at 2025-07-27 14:48:34.292768
+2025-07-27 15:14:45,392 - INFO - User Vikram santosh registered successfully at 2025-07-27 15:14:45.392910
+2025-07-27 15:36:20,603 - ERROR - Login failed for username: Vijay sai
+2025-07-27 15:51:53,865 - INFO - User Vikram santosh logged in successfully at 2025-07-27 15:51:53.865667
+2025-07-27 16:04:33,174 - INFO - User Vikram santosh logged in successfully at 2025-07-27 16:04:33.174923
+2025-07-27 17:04:18,847 - INFO - User Vikram santosh logged in successfully at 2025-07-27 17:04:18.847262
+2025-07-27 17:13:22,183 - INFO - User Vikram santosh logged in successfully at 2025-07-27 17:13:22.183900
+2025-07-27 17:13:56,834 - INFO - User Vikram santosh logged in successfully at 2025-07-27 17:13:56.834218
+2025-07-27 18:05:46,867 - WARNING - User with Username Vikram santosh email VikramSan@gmail.com already exists.
+2025-07-27 18:07:13,557 - INFO - User Vijay Sai registered successfully at 2025-07-27 18:07:13.557596
+2025-07-27 18:08:44,099 - INFO - User GowriGnaesh registered successfully at 2025-07-27 18:08:44.099652
+2025-07-27 18:10:32,686 - INFO - User Pavan Kumar registered successfully at 2025-07-27 18:10:32.686706
+2025-07-27 18:11:01,364 - INFO - User Pavan Kumar logged in successfully at 2025-07-27 18:11:01.363155
+2025-07-27 19:17:47,411 - WARNING - User with Username Pavan Kumar email Krkpavan@gmail.com already exists.
+2025-07-27 19:17:53,265 - INFO - User Pavan Kumar logged in successfully at 2025-07-27 19:17:53.265293
+2025-07-27 19:28:08,701 - INFO - User Pavan Kumar logged in successfully at 2025-07-27 19:28:08.701732
+2025-07-27 20:01:42,581 - INFO - User Pavan Kumar logged in successfully at 2025-07-27 20:01:42.581386
+2025-07-27 20:01:46,750 - INFO - User Pavan Kumar logged in successfully at 2025-07-27 20:01:46.750827
+2025-07-27 20:17:38,745 - INFO - User profile updated for Pavan Kumar
+2025-07-27 20:20:27,501 - INFO - User profile updated for Pavan Kumar
+2025-07-27 20:20:33,937 - WARNING - No update made for user Pavan Kumar
+2025-07-27 20:21:18,271 - WARNING - No update made for user Pavan Kumar
+2025-07-27 20:21:49,896 - WARNING - No update made for user Pavan Kumar
+2025-07-27 20:22:06,196 - ERROR - Login failed for username: Pavan Kumar
+2025-07-27 20:22:35,375 - INFO - User Vijay Sai logged in successfully at 2025-07-27 20:22:35.375661
+2025-07-27 20:22:40,019 - INFO - User Vijay Sai logged in successfully at 2025-07-27 20:22:40.019697
+2025-07-27 20:23:39,187 - INFO - User profile updated for Vijay Sai
+2025-07-27 20:24:29,574 - INFO - User profile updated for Vijay Sai
+2025-07-27 20:24:52,677 - INFO - User profile updated for Vijay Sai
+2025-07-27 20:25:39,396 - INFO - User profile updated for Vijay Sai
+2025-07-27 20:25:43,395 - WARNING - No update made for user Vijay Sai
+2025-07-27 20:26:37,784 - WARNING - No update made for user Vijay Sai
+2025-07-27 20:26:42,132 - WARNING - No update made for user Vijay Sai
+2025-07-27 20:27:15,009 - WARNING - No update made for user Vijay Sai
+2025-07-27 20:27:24,830 - WARNING - No update made for user Vijay Sai
+2025-07-27 20:27:54,312 - ERROR - Login failed for username: Pavan Kumar
+2025-07-27 20:28:05,417 - ERROR - Login failed for username: Vijay Sai
+2025-07-27 20:28:14,389 - WARNING - No update made for user Vijay Sai
+2025-07-27 20:28:29,131 - ERROR - Login failed for username: Vijay Sai
+2025-07-27 20:28:37,198 - ERROR - Login failed for username: Pavan
+2025-07-27 20:31:10,352 - ERROR - Password vlidation failed for username:sharma nithin
+2025-07-27 20:31:27,019 - INFO - User sharma nithin registered successfully at 2025-07-27 20:31:27.019778
+2025-07-27 20:43:04,096 - INFO - User sharma nithin logged in successfully at 2025-07-27 20:43:04.095473
+2025-07-27 20:46:06,151 - INFO - Password updated for user sharma nithin
+2025-07-27 20:46:17,741 - ERROR - Login failed for username: sharma nithin
+2025-07-27 20:46:24,484 - INFO - User sharma nithin logged in successfully at 2025-07-27 20:46:24.484663
+2025-07-27 20:58:38,874 - INFO - Reset token sent to nithin@gmail.com for user sharma nithin
+2025-07-27 21:00:49,150 - INFO - Reset token sent to nithin@gmail.com for user sharma nithin
+2025-07-27 21:00:55,115 - INFO - Reset token sent to nithin@gmail.com for user sharma nithin
+2025-07-28 13:50:21,027 - INFO - Password reset successful for user sharma nithin
+2025-07-28 13:50:37,536 - ERROR - Login failed for username: sharma nithin
+2025-07-28 13:50:43,811 - INFO - User sharma nithin logged in successfully at 2025-07-28 13:50:43.811426
+2025-07-28 13:56:04,284 - INFO - User sharma nithin logged out at 2025-07-28 13:56:04.284218
+2025-07-28 13:56:19,990 - INFO - User sharma nithin logged out at 2025-07-28 13:56:19.990526
+2025-07-28 13:56:23,906 - INFO - User sharma nithin logged out at 2025-07-28 13:56:23.906403
+2025-07-28 13:56:47,874 - INFO - User sharma nithin logged out at 2025-07-28 13:56:47.874539
+2025-07-28 13:56:50,606 - INFO - User sharma nithin logged out at 2025-07-28 13:56:50.606063
+2025-07-28 14:00:10,249 - WARNING - User with Username sharma nithin email nithin@gmail.com already exists.
+2025-07-28 14:01:23,599 - INFO - User Vijay Sai registered successfully at 2025-07-28 14:01:23.599541
+2025-07-28 14:02:43,422 - INFO - User Pavan Kumar registered successfully at 2025-07-28 14:02:43.422286
+2025-07-28 14:03:00,974 - ERROR - Login failed for username: Vijay sai
+2025-07-28 14:03:28,881 - INFO - User Vijay Sai logged in successfully at 2025-07-28 14:03:28.881270
+2025-07-28 14:04:40,671 - INFO - User profile updated for sharma nithin
+2025-07-28 14:06:07,948 - WARNING - No update made for user sharma nithin
+2025-07-28 14:06:15,247 - WARNING - No update made for user sharma nithin
+2025-07-28 14:06:47,744 - INFO - User Vijay Sai logged in successfully at 2025-07-28 14:06:47.744549
+2025-07-28 14:06:52,127 - INFO - User Vijay Sai logged in successfully at 2025-07-28 14:06:52.127443
+2025-07-28 14:08:19,748 - INFO - User profile updated for Vijay Sai
+2025-07-28 14:10:04,926 - INFO - User sharma nithin registered successfully at 2025-07-28 14:10:04.926338
+2025-07-28 14:10:32,236 - ERROR - Login failed for username: sharma nithin
+2025-07-28 14:10:58,421 - INFO - User sharma nithin logged in successfully at 2025-07-28 14:10:58.421388
+2025-07-28 14:11:01,825 - INFO - User sharma nithin logged in successfully at 2025-07-28 14:11:01.825403
+2025-07-28 14:12:21,755 - INFO - Password updated for user sharma nithin
+2025-07-28 14:12:40,157 - ERROR - Login failed for username: sharma nithin
+2025-07-28 14:12:45,695 - INFO - User sharma nithin logged in successfully at 2025-07-28 14:12:45.695070
