@@ -54,18 +54,3 @@ def get_current_user(authorization: str = Header(...)):
     except JWTError as e:
         raise HTTPException(status_code=401, detail="Invalid token")
  
-# def get_current_user(token: str = Depends(oauth2_scheme)):
-    
-#     try:        
-#         authorization: str = Header(...)
-#         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-#         username: str = payload.get("username")
-#         email: str = payload.get("sub")
-#         token = authorization.replace("Bearer", "").strip()
- 
-#         if username is None or email is None:
-#             raise JWTError()
-        
-#         return {"username": username, "email": email}
-#     except JWTError:
-#         raise HTTPException(status_code=401, detail="Invalid token")
