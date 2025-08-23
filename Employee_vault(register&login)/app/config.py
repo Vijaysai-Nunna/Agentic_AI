@@ -1,4 +1,4 @@
-MONGO_URL = "mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/"
+MONGO_URL = "mongodb+srv://username:password@resume.od8xhv2.mongodb.net/"
 DB_NAME = "Resume_db"
 COLLECTION_NAME = "sampled_data"
 SECRET_KEY = "b8cd0e3e0b58456bb1f745264c09ae034d8a73d9739fa3e29f3dbbf878f58c39"
