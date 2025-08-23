@@ -1,0 +1,23 @@
+# FastAPI & Server
+fastapi
+uvicorn
+
+# Database (MongoDB)
+pymongo
+motor # Async MongoDB driver
+
+# JWT Authentication
+python-jose
+passlib[bcrypt]
+
+# Email Support
+smtplib-client
+email-validator
+
+# Environment & Utilities
+python-dotenv
+pydantic
+
+# Testing
+pytest
+httpx
