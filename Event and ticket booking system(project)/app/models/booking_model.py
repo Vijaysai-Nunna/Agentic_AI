@@ -9,7 +9,7 @@ class BookingBase(BaseModel):
 
 # ---------- Booking Create ----------
 class BookingCreate(BookingBase):
-    pass  # no user_id or user_name here, user info comes from current_user
+    pass  
 
 
 # ---------- Event Nested in Booking ----------
