@@ -5,7 +5,7 @@ from datetime import datetime
 
 #---------------AdminBase-----------------
 class AdminBase(BaseModel):
-    Full_name: str = Field(..., min_length=2, max_length=50)
+    Full_name: str
     email: EmailStr
     phone: str = Field(..., min_length=10, max_length=10)
 
