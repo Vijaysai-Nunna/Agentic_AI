@@ -48,7 +48,7 @@ async def login_admin(login: AdminLogin):
         raise HTTPException(status_code=401, detail=str(e))    
 
 # ---------------- Get Current Admin ----------------
-@router.get("/me")
+@router.get("/my")
 async def get_admin_info(current_user=Depends(get_current_user)):
     try:
         return await admin_service.get_current_admin(current_user)
