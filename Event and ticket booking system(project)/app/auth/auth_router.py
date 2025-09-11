@@ -32,6 +32,6 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
 @router.get("/verify")
 async def verify(current_user: dict = Depends(verify_token)):
     """
-    Verify token endpoint: returns decoded user info
+    Verify endpoint of token to returns decoded user info.
     """
     return {"status": "success", "user": current_user}
