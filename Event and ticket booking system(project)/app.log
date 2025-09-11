@@ -1,0 +1,342 @@
+2025-09-08 14:59:36,293 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 14:59:36,831 [INFO] app.services.user_service: User registered: vj@example.com | user_id=USR001 | _id=68bea2008fd814b037dcd5b2
+2025-09-08 15:07:36,985 [WARNING] app.services.user_service: Registration failed: Password and Confirm Password do not match
+2025-09-08 15:08:05,873 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 15:08:06,780 [INFO] app.services.user_service: User registered: VJ@example.com | user_id=USR002 | _id=68bea3fe04ac5af2f95d520c
+2025-09-08 15:12:21,960 [WARNING] app.services.user_service: Registration failed: User with email VJ@example.com already exists
+2025-09-08 15:13:41,674 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 15:13:42,139 [INFO] app.services.user_service: User registered: VJ@example.com | user_id=USR001 | _id=68bea54e0643908475502aa2
+2025-09-08 15:40:20,128 [WARNING] app.services.user_service: Registration failed: User with email VJ@example.com already exists
+2025-09-08 15:40:30,839 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 15:40:31,488 [WARNING] app.services.user_service: Registration failed: Password already used by another user
+2025-09-08 15:41:06,957 [INFO] app.services.user_service: User registered: Vikram@example.com | user_id=USR002 | _id=68beabbaecb4e95660dec8c6
+2025-09-08 15:46:39,100 [WARNING] app.services.user_service: Login failed: User with email vj@example.com not found
+2025-09-08 15:47:00,935 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 15:47:01,641 [INFO] app.services.user_service: User logged in successfully: VJ@example.com
+2025-09-08 15:53:14,100 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 15:53:56,796 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 15:55:55,594 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 15:56:00,018 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 15:59:33,945 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 16:00:52,110 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 16:02:24,549 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 16:02:52,451 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 16:06:19,632 [INFO] app.auth.auth_service: JWT token validated successfully for user: VJ@example.com
+2025-09-08 16:09:24,056 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 16:09:25,970 [INFO] app.services.user_service: User registered: Prasana@example.com | user_id=USR003 | _id=68beb25d5f3db3877e58f41a
+2025-09-08 16:09:45,111 [INFO] app.services.user_service: User logged in successfully: Prasana@example.com
+2025-09-08 16:10:02,658 [INFO] app.auth.auth_service: JWT token validated successfully for user: Prasana@example.com
+2025-09-08 16:10:59,521 [INFO] app.auth.auth_service: JWT token validated successfully for user: Prasana@example.com
+2025-09-08 16:11:08,636 [INFO] app.auth.auth_service: JWT token validated successfully for user: Prasana@example.com
+2025-09-08 16:12:41,444 [INFO] app.auth.auth_service: JWT token validated successfully for user: Prasana@example.com
+2025-09-08 16:13:29,776 [INFO] app.auth.auth_service: JWT token validated successfully for user: Prasana@example.com
+2025-09-08 16:32:19,868 [INFO] app.auth.auth_service: JWT token validated successfully for user: Prasana@example.com
+2025-09-08 16:37:45,034 [INFO] app.auth.auth_service: JWT token validated for user: Prasana@example.com
+2025-09-08 16:37:48,416 [INFO] app.auth.auth_service: JWT token validated for user: Prasana@example.com
+2025-09-08 16:38:13,170 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 16:38:13,797 [INFO] app.services.user_service: User logged in: VJ@example.com
+2025-09-08 16:38:33,115 [INFO] app.auth.auth_service: JWT token validated for user: VJ@example.com
+2025-09-08 16:42:49,530 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 16:42:50,188 [INFO] app.services.user_service: User logged in: VJ@example.com
+2025-09-08 16:49:37,924 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 16:49:48,761 [INFO] app.services.user_service: User logged in: Prasana@example.com
+2025-09-08 16:50:13,643 [INFO] app.auth.auth_service: JWT token validated for user: Prasana@example.com
+2025-09-08 16:51:18,440 [INFO] app.auth.auth_service: JWT token validated for user: Prasana@example.com
+2025-09-08 16:51:27,453 [INFO] app.auth.auth_service: JWT token validated for user: Prasana@example.com
+2025-09-08 16:51:37,128 [INFO] app.auth.auth_service: JWT token validated for user: Prasana@example.com
+2025-09-08 17:40:37,755 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 17:40:40,438 [INFO] app.services.user_service: User registered: Ravi@example.com | user_id=USR004
+2025-09-08 17:40:56,067 [INFO] app.services.user_service: User logged in: Ravi@example.com
+2025-09-08 17:41:56,499 [INFO] app.services.user_service: User logged in: Ravi@email.com
+2025-09-08 21:11:20,024 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 21:11:21,488 [INFO] app.services.user_service: User registered: Pramod@example.com | user_id=USR004
+2025-09-08 21:12:05,556 [INFO] app.services.user_service: User registered: Pramod@example.com | user_id=USR001
+2025-09-08 21:12:34,345 [INFO] app.services.user_service: User registered: Sarah@example.com | user_id=USR002
+2025-09-08 21:13:16,398 [INFO] app.services.user_service: User registered: Kumar@example.com | user_id=USR003
+2025-09-08 21:13:46,749 [INFO] app.services.user_service: User logged in: Kumar@example.com
+2025-09-08 21:16:07,136 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-08 21:54:36,520 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 21:54:37,883 [INFO] app.services.user_service: User registered: VJ@email.com | user_id=USR004
+2025-09-08 21:55:23,121 [INFO] app.services.user_service: User logged in: VJ@email.com
+2025-09-08 21:55:49,194 [INFO] app.services.admin_service: Admin registered: VJ@email.com | admin_id=ADM001
+2025-09-08 22:02:40,088 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-08 22:04:50,697 [INFO] app.services.user_service: User logged in: VJ@email.com
+2025-09-08 22:20:19,715 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 22:29:37,568 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 22:30:25,698 [INFO] app.services.admin_service: Admin registered: Sathish@email.com | admin_id=ADM002
+2025-09-08 22:34:57,861 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 22:35:25,873 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-08 22:36:56,953 [INFO] app.services.admin_service: Admin registered: Praksh@email.com | admin_id=ADM003
+2025-09-08 22:56:36,088 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 22:56:38,501 [INFO] app.services.admin_service: Admin registered: Rukesh@email.com | admin_id=ADM004
+2025-09-08 23:10:27,439 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-08 23:18:24,262 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 11:21:01,167 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 12:04:51,126 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:05:20,156 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:05:56,200 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:06:10,234 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:06:17,234 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:06:36,806 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:45:08,480 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 12:46:09,547 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:49:26,262 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:53:44,987 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 12:59:41,896 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 15:05:15,214 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 15:05:20,346 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 15:44:24,579 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 15:44:59,839 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 16:00:58,414 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 16:00:58,427 [ERROR] app.auth.auth_service: JWT decoding failed in get_current_admin: Signature has expired.
+2025-09-09 16:01:13,354 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 16:01:32,483 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 16:01:32,484 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'VJ@email.com', 'id': '68bf038db50faf4558520945', 'role': 'admin', 'exp': 1757417473}
+2025-09-09 16:06:19,211 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 16:06:19,224 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'VJ@email.com', 'id': '68bf038db50faf4558520945', 'role': 'admin', 'exp': 1757417473}
+2025-09-09 16:07:22,459 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 16:07:22,459 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'VJ@email.com', 'id': '68bf038db50faf4558520945', 'role': 'admin', 'exp': 1757417473}
+2025-09-09 16:12:54,594 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'VJ@email.com', 'id': '68bf038db50faf4558520945', 'role': 'admin', 'exp': 1757417473}
+2025-09-09 16:13:00,192 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 17:15:07,287 [ERROR] app.auth.auth_service: JWT decoding failed in get_current_admin: Signature has expired.
+2025-09-09 17:16:42,601 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 17:17:02,705 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'VJ@email.com', 'id': '68bf038db50faf4558520945', 'role': 'admin', 'exp': 1757422003}
+2025-09-09 17:25:22,757 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 17:26:57,050 [INFO] app.services.admin_service: Admin registered: VJ@email.com | admin_id=ADM001
+2025-09-09 17:29:05,521 [ERROR] app.auth.auth_service: JWT decoding failed in get_current_admin: Signature has expired.
+2025-09-09 17:29:34,354 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757422540}
+2025-09-09 17:29:35,963 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 17:51:13,440 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757422540}
+2025-09-09 17:51:13,501 [INFO] database.connection: Connecting to MongoDB at mongodb+srv://VijaySaiNunna07:rTWReTX759kxTJDb@resume.od8xhv2.mongodb.net/, using DB: Event_Ticket_db
+2025-09-09 21:14:33,869 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 21:37:04,525 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 21:37:05,207 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-09 21:51:45,205 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Pavan@example.com', 'id': '68bef9948ffe7adb60aea086', 'role': 'user', 'exp': 1757437625}
+2025-09-09 21:56:01,221 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Pavan@example.com', 'id': '68bef9948ffe7adb60aea086', 'role': 'user', 'exp': 1757437625}
+2025-09-09 21:57:53,263 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Pavan@example.com', 'id': '68bef9948ffe7adb60aea086', 'role': 'user', 'exp': 1757437625}
+2025-09-09 21:58:05,343 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 21:58:19,065 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757438885}
+2025-09-09 21:58:48,399 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757438885}
+2025-09-09 21:59:41,558 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757438885}
+2025-09-09 22:11:38,757 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757438885}
+2025-09-09 22:29:53,672 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757438885}
+2025-09-09 22:30:23,543 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 22:30:40,923 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-09 22:33:13,194 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Pavan@example.com', 'id': '68bef9948ffe7adb60aea086', 'role': 'user', 'exp': 1757437625}
+2025-09-09 22:33:36,895 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-09 22:34:34,137 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-09 22:37:56,992 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-09 22:41:31,045 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-09 22:41:44,039 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-09 22:43:07,140 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757440823}
+2025-09-10 00:39:50,876 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 00:39:51,523 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-10 01:26:52,145 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 01:26:52,550 [INFO] app.services.user_service: User logged in: Pramod@example.com
+2025-09-10 01:38:39,557 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 01:38:40,119 [INFO] app.services.user_service: User logged in: Sarah@example.com
+2025-09-10 01:41:23,833 [INFO] app.services.user_service: User registered: Vinay@email.com | user_id=USR005
+2025-09-10 01:41:58,833 [INFO] app.services.user_service: User logged in: Vinay@email.com
+2025-09-10 01:53:38,214 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Vinay@email.com', 'id': '68c089eb0fab37571d8d2cda', 'role': 'user', 'exp': 1757452318}
+2025-09-10 01:53:54,218 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 01:54:10,879 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 01:54:18,536 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 01:56:14,351 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:09:08,369 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:10:22,144 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:10:51,339 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:17:34,681 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 02:17:38,052 [INFO] app.services.user_service: User registered: Ganesh@email.com | user_id=USR006
+2025-09-10 02:17:58,183 [INFO] app.services.user_service: User logged in: Ganesh@email.com
+2025-09-10 02:19:49,696 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:32:18,619 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:32:46,672 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:34:15,124 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:35:11,033 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:40:07,839 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 02:41:21,921 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757453034}
+2025-09-10 09:36:45,682 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 09:36:46,271 [INFO] app.services.user_service: User logged in: Ganesh@email.com
+2025-09-10 09:37:49,742 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757480846}
+2025-09-10 09:39:00,021 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-10 09:40:17,215 [ERROR] app.auth.auth_service: JWT decoding failed in get_current_admin: Invalid crypto padding
+2025-09-10 09:40:38,734 [INFO] app.auth.auth_service: Decoded payload in get_current_admin: {'sub': 'Sathish@email.com', 'id': '68bf0ba9b934b60cd919e490', 'role': 'admin', 'exp': 1757480846}
+2025-09-10 09:46:11,467 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 09:46:11,863 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-10 10:40:08,020 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-10 10:40:08,316 [INFO] app.services.user_service: User logged in: Pavan@example.com

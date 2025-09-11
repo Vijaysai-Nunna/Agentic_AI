@@ -1,0 +1,92 @@
+[
+  {
+    "venue_id": "VEN001",
+    "name": "Tech Hall A",
+    "city": "Hyderabad",
+    "location": "Ameerpet",
+    "capacity": 200,
+    "type": "tech",
+    "events": ["Python Bootcamp"]
+  },
+  {
+    "venue_id": "VEN002",
+    "name": "Innovation Center",
+    "city": "Bangalore",
+    "location": "Whitefield",
+    "capacity": 250,
+    "type": "tech",
+    "events": ["AI & ML Conference"]
+  },
+  {
+    "venue_id": "VEN003",
+    "name": "Blockchain Arena",
+    "city": "Mumbai",
+    "location": "Bandra",
+    "capacity": 300,
+    "type": "tech",
+    "events": ["Blockchain Summit"]
+  },
+  {
+    "venue_id": "VEN004",
+    "name": "Startup Hub",
+    "city": "Delhi",
+    "location": "Connaught Place",
+    "capacity": 150,
+    "type": "business",
+    "events": ["Startup Pitch Fest"]
+  },
+  {
+    "venue_id": "VEN005",
+    "name": "Beachside Stage",
+    "city": "Goa",
+    "location": "Baga Beach",
+    "capacity": 800,
+    "type": "entertainment",
+    "events": ["Music Fest"]
+  },
+  {
+    "venue_id": "VEN006",
+    "name": "Food Plaza Grounds",
+    "city": "Chennai",
+    "location": "T Nagar",
+    "capacity": 500,
+    "type": "lifestyle",
+    "events": ["Food Carnival"]
+  },
+  {
+    "venue_id": "VEN007",
+    "name": "Robotics Lab",
+    "city": "Pune",
+    "location": "Hinjewadi",
+    "capacity": 120,
+    "type": "tech",
+    "events": ["Robotics Workshop"]
+  },
+  {
+    "venue_id": "VEN008",
+    "name": "Biz Conference Hall",
+    "city": "Kolkata",
+    "location": "Salt Lake",
+    "capacity": 180,
+    "type": "business",
+    "events": ["Digital Marketing Meetup"]
+  },
+  {
+    "venue_id": "VEN009",
+    "name": "Comedy Club Arena",
+    "city": "Hyderabad",
+    "location": "Banjara Hills",
+    "capacity": 300,
+    "type": "entertainment",
+    "events": ["Standup Comedy Night"]
+  },
+  {
+    "venue_id": "VEN010",
+    "name": "Wellness Convention Center",
+    "city": "Delhi",
+    "location": "Dwarka",
+    "capacity": 600,
+    "type": "lifestyle",
+    "events": ["Health & Wellness Expo"]
+  }
+]

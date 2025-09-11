@@ -1,0 +1,55 @@
+event_ticket_booking/
+│
+├── app/                           # FastAPI modules
+│   ├── Auth/                      # JWT Authentication
+│   │   ├── auth_service.py        # JWT token generation & verification
+│   │   └── auth_router.py         # Auth APIs
+│   │
+│   ├── models/                    # Pydantic data models
+│   │   ├── admin_model.py
+│   │   ├── user_model.py
+│   │   ├── event_model.py
+│   │   ├── venue_model.py
+│   │   └── booking_model.py
+│   │
+│   ├── services/                  # Business logic / CRUD operations
+│   │   ├── admin_service.py
+│   │   ├── user_service.py
+│   │   ├── event_service.py
+│   │   ├── venue_service.py
+│   │   └── booking_service.py
+│   │
+│   ├── routers/                   # API endpoints
+│   │   ├── admin_router.py
+│   │   ├── users_router.py
+│   │   ├── event_router.py
+│   │   ├── venue_router.py
+│   │   └── bookings_router.py
+│   │
+│   └── utils/                     # Helper utilities
+│       ├── logging_utils.py
+│       ├── exceptions.py
+│       └── sequence_utils.py      # Auto-generated IDs
+│
+├── database/                       # MongoDB connection & setup
+│   ├── connection.py
+│   ├── collections.py
+│   └── init_db.py
+│
+├── app.log                           # Log files app.log
+│
+├── Json_files/                      # Sample JSON for seeding DB
+│   ├── event.json
+│   └── venue.json
+│
+├── main.py                          # FastAPI application entry point
+├── config.py                        # Environment & configuration loader
+├── .env                             # Secrets (DB URL, JWT secret)
+│
+├── Documents/                       # Documentation & presentation
+│   ├── Project_Structure.md         # Project structure explanation
+│   ├── Project_Documentation.pdf    # Detailed documentation (SRS, modules, flow)
+│   └── PPT/                         # PowerPoint slides for presentation
+│
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project overview
