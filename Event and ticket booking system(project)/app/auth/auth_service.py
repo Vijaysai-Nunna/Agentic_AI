@@ -129,7 +129,7 @@ def verify_token(token: str) -> dict:
 # ----------------- Get current admin -----------------
 async def get_current_admin(token: str = Depends(oauth2_scheme)) -> AdminResponse:
     """
-    Get the current logged-in admin from token
+    Getting the current logged-in admin from token
     """
     if is_token_blacklisted(token):
         raise InvalidCredentialsException("Token is invalid or admin logged out")
