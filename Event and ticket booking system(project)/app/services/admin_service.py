@@ -122,7 +122,7 @@ class AdminService:
         if not verify_password(login.password, admin["password"]):
             raise InvalidCredentialsException("Invalid email or password")
 
-    # Token payload
+    # Payload Token
         token_data = {"sub": admin["email"], "id": str(admin["_id"]), "role": "admin"}
         access_token = create_access_token(token_data)
 
