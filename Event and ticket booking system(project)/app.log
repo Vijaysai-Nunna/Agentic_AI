@@ -340,3 +340,19 @@ Traceback (most recent call last):
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
 2025-09-10 10:40:08,316 [INFO] app.services.user_service: User logged in: Pavan@example.com
+2025-09-18 09:23:02,283 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-18 09:23:23,677 [WARNING] app.services.user_service: Passwords do not match
+2025-09-18 09:23:34,933 [INFO] app.services.user_service: User registered: Revanth@email.com | user_id=USR007
+2025-09-18 09:24:38,308 [INFO] app.services.user_service: User logged in: Revanth@email.com
+2025-09-18 09:29:55,547 [WARNING] passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\svcs\anaconda3\envs\python_3.12\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-18 09:29:55,887 [INFO] app.services.user_service: User logged in: Revanth@example.com

@@ -10,10 +10,9 @@ class UserNotFoundException(Exception):
         self.message = message
         super().__init__(self.message)
 
-class InvalidCredentialsException(Exception):
-    def __init__(self, message: str = "Invalid credentials"):
-        self.message = message
-        super().__init__(self.message)
+class InvalidCredentialsException(HTTPException):
+    def __init__(self, detail: str = "Token is invalid or user logged out"):
+        super().__init__(status_code=status.HTTP_401_UNAUTHORIZED, detail=detail)
 
 class EventNotFoundException(HTTPException):
     def __init__(self):
