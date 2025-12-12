@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "dfb99d75-40ba-40c2-a998-95024f9b9ad6",
+		"name": "User Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1919740"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000"
+			},
+			"response": []
+		},
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\" : \"Joe\", \r\n    \"last_name\" : \"Biden\", \r\n    \"email\" : \"JoeBiden@gmail.com\", \r\n    \"dob\" : \"01/01/2011\",\r\n    \"password\": \"zp@511786\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/register"
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\" : \"Joe\", \r\n    \"last_name\" : \"Biden\", \r\n    \"email\" : \"JoeBiden@gmail.com\", \r\n    \"dob\" : \"01/01/2011\",\r\n    \"password\": \"zp@511786\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\" : \"Joe\", \r\n    \"last_name\" : \"Biden\", \r\n    \"email\" : \"JoeBiden@gmail.com\", \r\n    \"dob\" : \"01/01/2011\",\r\n    \"password\": \"zp@511786\"\r\n    }\r\n"
+				},
+				"url": "http://localhost:5000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/user/JoeBiden@gmail.com/"
+			},
+			"response": []
+		},
+		{
+			"name": "Change Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"JoeBiden@gmail.com\",\r\n    \"old_password\" : \"zp@511786\",\r\n    \"new_password\" : \"zp@111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/user/change_password"
+			},
+			"response": []
+		}
+	]
+}

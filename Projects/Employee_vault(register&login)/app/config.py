@@ -1,0 +1,8 @@
+MONGO_URL = "mongodb+srv://username:password@resume.od8xhv2.mongodb.net/"
+DB_NAME = "Resume_db"
+COLLECTION_NAME = "sampled_data"
+SECRET_KEY = "b8cd0e3e0b58456bb1f745264c09ae034d8a73d9739fa3e29f3dbbf878f58c39"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+RESET_PASSWORD_EXPIRY_HOURS = 24
+MAX_PASSWORD_RESET_ATTEMPTS = 3

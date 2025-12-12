@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6885f50d7d8b08cc15c3fa04"
+  },
+  "username": "Vikram santosh",
+  "email": "VikramSan@gmail.com",
+  "password": "$2b$12$LIKDIPF.8Tv/zYUenhTRru6NA2OxaHZ3HpWsvTO043/M7HHzw9rYW",
+  "confirm_password": "$2b$12$LIKDIPF.8Tv/zYUenhTRru6NA2OxaHZ3HpWsvTO043/M7HHzw9rYW",
+  "phone": "4536384574",
+  "first_name": "Vikram",
+  "last_name": "Santosh",
+  "dob": "2002-09-20",
+  "doj": "2024-12-01",
+  "address": "Hyderabad Manikonda roadno9",
+  "created_at": "2025-07-27 15:14:45"
+},
+{
+  "_id": {
+    "$oid": "68861dd445e1456f0d760b40"
+  },
+  "username": "GowriGnaesh",
+  "email": "GaneshV@gmail.com",
+  "password": "$2b$12$hwzBaUcgtRwQf8tgb3Q0KOJC8p78LrZynvMXZmRE7YkMeoPp4wHMe",
+  "confirm_password": "$2b$12$hwzBaUcgtRwQf8tgb3Q0KOJC8p78LrZynvMXZmRE7YkMeoPp4wHMe",
+  "phone": "766892411",
+  "first_name": "Gowri",
+  "last_name": "Ganesh",
+  "dob": "2002-04-16",
+  "doj": "2024-01-10",
+  "address": "vishapatnam beach road11",
+  "created_at": "2025-07-27 18:08:40"
+},
+{
+  "_id": {
+    "$oid": "6887355bee2b8832418020d5"
+  },
+  "username": "Vijay Sai",
+  "email": "Vjsai@gmail.com",
+  "password": "$2b$12$6dpgFe5I5yzdscD1xv5jL.douHpKylR.Tl68mQMUxDHjrH9cRkMlG",
+  "confirm_password": "$2b$12$6dpgFe5I5yzdscD1xv5jL.douHpKylR.Tl68mQMUxDHjrH9cRkMlG",
+  "phone": "987654320",
+  "first_name": "Vijay",
+  "last_name": "Sai",
+  "dob": "2003-01-01",
+  "doj": "2025-04-18",
+  "address": "Maharastra raigad",
+  "created_at": "2025-07-28 14:01:23"
+},
+{
+  "_id": {
+    "$oid": "688735abee2b8832418020d6"
+  },
+  "username": "Pavan Kumar",
+  "email": "Krkpavan@gmail.com",
+  "password": "$2b$12$jsN/uNmRoiEincIluUU6ruC0gRprtMaom8fDzL/TKHf3i.41tPHFS",
+  "confirm_password": "$2b$12$jsN/uNmRoiEincIluUU6ruC0gRprtMaom8fDzL/TKHf3i.41tPHFS",
+  "phone": "90674533911",
+  "first_name": "Pavan",
+  "last_name": "Kumar",
+  "dob": "2003-01-25",
+  "doj": "2025-10-07",
+  "address": "Pune",
+  "created_at": "2025-07-28 14:02:43"
+},
+{
+  "_id": {
+    "$oid": "68873764ee2b8832418020d7"
+  },
+  "username": "sharma nithin",
+  "email": "Nithin@gmail.com",
+  "password": "$2b$12$QtrnZW8NIm7Urzt5TsGrvObHD/pZlkrqL7lGt67B3ZzUzKZutHiWS",
+  "confirm_password": "$2b$12$khh/VWPnGh0xxb/MHoNrDe1sUoOlhN88HGBmbLmgZJFu/Kwo3AwPC",
+  "phone": "85958588696",
+  "first_name": "Nithin",
+  "last_name": "Sharma",
+  "dob": "2001-03-29",
+  "doj": "2022-10-10",
+  "address": "Lucknow",
+  "created_at": "2025-07-28 14:10:04"
+}]

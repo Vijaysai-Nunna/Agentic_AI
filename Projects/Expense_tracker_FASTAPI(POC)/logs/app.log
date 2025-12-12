@@ -1,0 +1,34 @@
+2025-06-25 13:01:12,336 - INFO - Expense Tracker API started
+2025-06-25 13:01:17,183 - INFO - Expense Tracker API started
+2025-06-25 13:01:20,733 - INFO - Expense Tracker API started
+2025-06-25 13:02:09,363 - INFO - Created new expense: exp014
+2025-06-25 13:02:14,074 - INFO - Fetched all expenses
+2025-06-25 13:22:24,705 - INFO - Expense Tracker API started
+2025-06-25 13:24:13,944 - INFO - Fetched expense: exp001
+2025-06-25 13:30:05,362 - INFO - Expense Tracker API started
+2025-06-25 13:30:09,140 - INFO - Fetched expense: exp001
+2025-06-25 13:30:17,177 - INFO - Fetched expense: exp010
+2025-06-25 13:35:44,483 - INFO - Expense Tracker API started
+2025-06-25 13:35:46,980 - INFO - Updated expense: exp013
+2025-06-25 13:37:20,968 - INFO - Expense Tracker API started
+2025-06-25 13:38:41,687 - INFO - Expense Tracker API started
+2025-06-25 13:38:42,739 - INFO - Expense Tracker API started
+2025-06-25 15:06:32,599 - INFO - Expense Tracker API started
+2025-06-25 15:07:53,289 - INFO - Deleted expense: exp014
+2025-06-25 15:08:40,320 - INFO - Updated expense: exp013
+2025-06-25 15:08:50,924 - INFO - Fetched all expenses
+2025-06-25 15:10:11,621 - INFO - Created new expense: exp014
+2025-06-25 15:10:16,703 - INFO - Fetched all expenses
+2025-06-25 15:10:27,688 - INFO - Fetched expense: exp014
+2025-06-25 15:10:55,634 - INFO - Updated expense: exp014
+2025-06-25 15:11:06,344 - INFO - Fetched all expenses
+2025-06-30 13:11:14,260 - INFO - Expense Tracker API started
+2025-06-30 13:35:10,698 - INFO - Expense Tracker API started
+2025-06-30 13:36:41,414 - INFO - Created new expense: exp015
+2025-06-30 13:37:22,615 - INFO - Fetched all expenses
+2025-06-30 13:38:07,991 - INFO - Fetched expense: exp015
+2025-06-30 13:38:32,344 - INFO - Fetched expense: exp009
+2025-06-30 13:39:21,974 - INFO - Updated expense: exp009
+2025-06-30 13:41:01,556 - INFO - Updated expense: exp009
+2025-06-30 13:42:16,684 - INFO - Deleted expense: exp015
+2025-06-30 13:42:25,078 - INFO - Fetched all expenses

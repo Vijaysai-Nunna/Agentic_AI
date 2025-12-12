@@ -1,0 +1,65 @@
+Project: Expense Tracker API (FastAPI)
+
+This is a FastAPI-based RESTful web API to manage and track personal or shared expenses.
+It handles operations such as creating, updating, deleting, and listing expenses, with data using a JSON file (expense_data.json).
+
+>>>Features and Functionalities:
+
+1)Create Expense
+Add a new expense by providing:
+id
+title
+amount
+category
+
+2)Update Expense
+Update details of an existing expense by id.
+You can modify:
+title
+amount
+category
+
+3)Delete Expense
+Remove an expense record from the system using its id.
+
+4)View All Expenses
+List all expenses with: ID, title, amount, category
+
+5)View Single Expense
+Retrieve a specific expense by its id.
+
+6)Storage
+All expense records are saved in: expense_data.json
+
+7)Validation and Error Handling
+All inputs are validated using Pydantic models,Duplicate IDs, missing fields, and invalid updates are handled gracefully.
+
+>>>>Technologies Used
+> FastAPI: Web framework for building APIs
+> Pydantic: For request validation
+> Uvicorn: ASGI server to run FastAPI
+> JSON: File-based storage for expense data
+
+>>>Folder Structure
+Expense Tracker/
+|----- main.py                           # App entry point
+|----- models.py                         # Pydantic models (request schemas)
+|----- logger.py                         # To generate the loggers
+|----- crud.py                           # Business logic for create/View all/update/delete
+|----- db.py                             # Data loading/saving from JSON
+|----- expense_data.json                 # database
+|----- requirements.txt                  # Project dependencies
+|----- routers/
+       └── expenses.py                   # All API routes for managing expenses
+|----- Logs/
+       └── app.log                        #To generate log files
+└── Expense Tracker API.postman_collection.json   # Postman collection for testing
+
+>>>HTTP Methods:
+1)POST : Create a new expense with endpoint.
+2)GET : List all expenses with endpoint.
+3)GET : Get a specific expense by ID with endpoint.
+4)PUT : Update an expense by ID with endpoint.
+5)DELETE : Delete an expense by ID with endpoint.
+
+>>>Testing will be done on Postman.
