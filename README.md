@@ -30,21 +30,14 @@ A complete FastAPI backend that manages events, venues, and ticket booking with 
 
 🔧 Features
 
-Secure JWT authentication for Admin & User
-
-Role-based access control
-
-Event & venue management (CRUD)
-
-Real-time seat availability + rollback on cancellation
-
-Ticket booking, updating, and cancellation APIs
-
-MongoDB (async) integration for scalable performance
-
-Clean modular structure with routers, services, and utils
-
-Centralized logging & exception handling
+-Secure JWT authentication for Admin & User
+-Role-based access control
+-Event & venue management (CRUD)
+-Real-time seat availability + rollback on cancellation
+-Ticket booking, updating, and cancellation APIs
+-MongoDB (async) integration for scalable performance
+-Clean modular structure with routers, services, and utils
+-Centralized logging & exception handling
 
 ---
 
@@ -52,44 +45,25 @@ Centralized logging & exception handling
 A complete learning guide covering MongoDB basics, Python integration, and FastAPI sync/async CRUD operations using PyMongo and Motor.
 
 🔧 What You’ll Learn
-
-MongoDB fundamentals (Collections, Documents, BSON)
-
-Connecting MongoDB Atlas with Python
-
-CRUD operations using PyMongo (Sync)
-
-FastAPI with PyMongo for synchronous APIs
-
-FastAPI with Motor for asynchronous APIs
-
-Difference between Sync vs Async in FastAPI
-
-Important MongoDB + FastAPI interview questions
-
+-MongoDB fundamentals (Collections, Documents, BSON)
+-Connecting MongoDB Atlas with Python
+-CRUD operations using PyMongo (Sync)
+-FastAPI with PyMongo for synchronous APIs
+-FastAPI with Motor for asynchronous APIs
+-Difference between Sync vs Async in FastAPI
+-Important MongoDB + FastAPI interview questions
 🗂️ Highlights
-
-Step-by-step code samples (Python, FastAPI Sync, FastAPI Async)
-
-Clear explanation of database connections & queries
-
-Async CRUD examples with Motor
-
-.env configuration & Atlas setup
-
-Perfect for beginners preparing for interviews
-
+-Step-by-step code samples (Python, FastAPI Sync, FastAPI Async)
+-Clear explanation of database connections & queries
+-Async CRUD examples with Motor
+-.env configuration & Atlas setup
+-Perfect for beginners preparing for interviews
 🚀 Tech Stack
-
-Python
-
-FastAPI (Sync + Async)
-
-PyMongo (Synchronous driver)
-
-Motor (Asynchronous driver)
-
-MongoDB Atlas
+-Python
+-FastAPI (Sync + Async)
+-PyMongo (Synchronous driver)
+-Motor (Asynchronous driver)
+-MongoDB Atlas
 
 ---
 
@@ -97,49 +71,32 @@ MongoDB Atlas
 A curated folder containing multiple mini–backend projects, POCs, and FastAPI-based applications showcasing practical implementation of APIs, CRUD operations, authentication, and real-world problem solving.
 
 🔧 Included Projects
-
-Employee Vault – Employee record management with CRUD APIs
-
-Expense Tracker – Track daily expenses with FastAPI + file/DB storage
-
-Hospital Management System – Patient, doctor, and appointment handling
-
-Library Management System – Books, students, issue/return workflow
-
-FastAPI News API Project – News fetching + GPT headline generator
-
-Proper Loan App – Loan application, verification, and approval flow
-
-POCs – Small proof-of-concept modules built for learning & testing
-
+-Employee Vault – Employee record management with CRUD APIs
+-Expense Tracker – Track daily expenses with FastAPI + file/DB storage
+-Hospital Management System – Patient, doctor, and appointment handling
+-Library Management System – Books, students, issue/return workflow
+-FastAPI News API Project – News fetching + GPT headline generator
+-Proper Loan App – Loan application, verification, and approval flow
 🛠️ Highlights
+-FastAPI-based modular structure
+-MongoDB / local storage integration
+-Authentication (JWT) in some modules
+-Clean CRUD operations
+-Ready-to-extend project templates
 
-FastAPI-based modular structure
-
-MongoDB / local storage integration
-
-Authentication (JWT) in some modules
-
-Clean CRUD operations
-
-Ready-to-extend project templates
-
-🚀 Purpose
-
-These projects serve as hands-on practice for backend development, showcasing real-world API design, data handling, and system workflow implementation.
 ---
 
 ### **5. Voice-Agent E-Commerce Platform (VOXERA)/**
 A voice-controlled intelligent shopping assistant built using AI & LLM tools. Built with fully smart and interactiveness according to this evolving AI Era.
 
 🔑 Highlights
-Built conversational voice flows for e-commerce
-Involved NLU- Natural Language Understanding
-Product availability, details, and spec queries
-Built with fully interactive voice assistant mode
-Backend integration with AI reasoning
-Hands-on exploration of voice models + LLMs
-Represents my practical work in conversational AI and agent-based commerce systems.
+-Built conversational voice flows for e-commerce
+-Involved NLU- Natural Language Understanding
+-Product availability, details, and spec queries
+-Built with fully interactive voice assistant mode
+-Backend integration with AI reasoning
+-Hands-on exploration of voice models + LLMs
+-Represents my practical work in conversational AI and agent-based commerce systems.
 
 ---
 
