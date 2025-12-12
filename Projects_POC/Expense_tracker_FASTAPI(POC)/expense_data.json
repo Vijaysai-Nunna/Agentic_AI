@@ -1,0 +1,86 @@
+{
+    "exp001": {
+        "id": "exp001",
+        "title": "Groceries",
+        "amount": 250.0,
+        "category": "Food"
+    },
+    "exp002": {
+        "id": "exp002",
+        "title": "Electricity Bill",
+        "amount": 1200.5,
+        "category": "Utilities"
+    },
+    "exp003": {
+        "id": "exp003",
+        "title": "Internet Recharge",
+        "amount": 499.0,
+        "category": "Communication"
+    },
+    "exp004": {
+        "id": "exp004",
+        "title": "Gym Membership",
+        "amount": 800.0,
+        "category": "Health"
+    },
+    "exp005": {
+        "id": "exp005",
+        "title": "Movie Tickets",
+        "amount": 450.0,
+        "category": "Entertainment"
+    },
+    "exp006": {
+        "id": "exp006",
+        "title": "Books",
+        "amount": 600.0,
+        "category": "Education"
+    },
+    "exp007": {
+        "id": "exp007",
+        "title": "Dining Out",
+        "amount": 950.0,
+        "category": "Food"
+    },
+    "exp008": {
+        "id": "exp008",
+        "title": "Fuel",
+        "amount": 1500.0,
+        "category": "Transport"
+    },
+    "exp009": {
+        "id": "exp009",
+        "title": "Rechargers",
+        "amount": 400.0,
+        "category": "Communication"
+    },
+    "exp010": {
+        "id": "exp010",
+        "title": "Water Bill",
+        "amount": 300.0,
+        "category": "Utilities"
+    },
+    "exp011": {
+        "id": "exp011",
+        "title": "water",
+        "amount": 400.5,
+        "category": "Drinking water"
+    },
+    "exp012": {
+        "id": "exp012",
+        "title": "clothes",
+        "amount": 900.5,
+        "category": "fashion"
+    },
+    "exp013": {
+        "id": "exp013",
+        "title": "Drywashing",
+        "amount": 100.0,
+        "category": "washing machine"
+    },
+    "exp014": {
+        "id": "exp014",
+        "title": "Skincare",
+        "amount": 900.5,
+        "category": "Healthy face"
+    }
+}

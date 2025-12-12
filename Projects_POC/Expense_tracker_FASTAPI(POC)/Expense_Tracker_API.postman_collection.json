@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "bd4d4119-b6b6-4dad-abd6-0e36c8878fd9",
+		"name": "Expense_Tracker_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44739989",
+		"_collection_link": "https://lunar-moon-3403246.postman.co/workspace/Vijaysai_Nunna's-Workspace~233b5b46-1998-48f4-83a9-258845dc44cf/collection/44739989-bd4d4119-b6b6-4dad-abd6-0e36c8878fd9?action=share&source=collection_link&creator=44739989"
+	},
+	"item": [
+		{
+			"name": "Add_Expense",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"exp012\",\r\n  \"title\": \"clothes\",\r\n  \"amount\": 900.5,\r\n  \"category\": \"fashion\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/create-expense",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"create-expense"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List_expenses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/list-expenses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"list-expenses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_expense",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/get-expense/exp001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"get-expense",
+						"exp001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update_expense",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Drywashing\",\r\n    \"amount\": 100,\r\n    \"category\": \"washing machine\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/update-expense/exp013",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"update-expense",
+						"exp013"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_expenses",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/delete-expense/exp014",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"delete-expense",
+						"exp014"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

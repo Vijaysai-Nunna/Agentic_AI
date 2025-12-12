@@ -1,0 +1,86 @@
+[
+    {
+        "book_id": "B001",
+        "title": "Python Programming",
+        "author": "John Doe",
+        "category": "Programming",
+        "available": true
+    },
+    {
+        "book_id": "B002",
+        "title": "Advanced Data Structures",
+        "author": "Jane Smith",
+        "category": "Computer Science",
+        "available": true
+    },
+    {
+        "book_id": "B003",
+        "title": "Machine Learning Basics",
+        "author": "Andrew Ng",
+        "category": "Machine Learning",
+        "available": true
+    },
+    {
+        "book_id": "B004",
+        "title": "Database Systems",
+        "author": "Hector Garcia-Molina",
+        "category": "Database",
+        "available": true
+    },
+    {
+        "book_id": "B005",
+        "title": "Operating Systems Concepts",
+        "author": "Abraham Silberschatz",
+        "category": "Operating Systems",
+        "available": true
+    },
+    {
+        "book_id": "B006",
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen",
+        "category": "Algorithms",
+        "available": true
+    },
+    {
+        "book_id": "B007",
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "category": "Software Engineering",
+        "available": true
+    },
+    {
+        "book_id": "B008",
+        "title": "The Pragmatic Programmer",
+        "author": "Andy Hunt",
+        "category": "Software Development",
+        "available": true
+    },
+    {
+        "book_id": "B009",
+        "title": "Deep Learning with Python",
+        "author": "FranChollet",
+        "category": "Deep Learning",
+        "available": true
+    },
+    {
+        "book_id": "B010",
+        "title": "You Do Know JS",
+        "author": "Kyle Simpson",
+        "category": null,
+        "available": true
+    },
+    {
+        "book_id": "B001",
+        "title": "You Can",
+        "author": "James",
+        "category": "Motivational",
+        "available": true
+    },
+    {
+        "book_id": "B3c3",
+        "title": "You Can Work",
+        "author": "James",
+        "category": "Personality Dev",
+        "available": true
+    }
+]
