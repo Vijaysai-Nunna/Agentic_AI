@@ -1,0 +1,4 @@
+2025-05-06 11:30:02,372 | DEBUG | decorators | wrapper | line:8 | Entering the Function: list_departments
+2025-05-06 11:30:02,374 | INFO | helpers | load_from_json | line:43 | Loaded data from JSON file: C:\AP\py_emp_example\services\..\json\departments.json
+2025-05-06 11:30:02,374 | INFO | department | list_departments | line:30 | All Departments Loaded....
+2025-05-06 11:30:02,375 | DEBUG | decorators | wrapper | line:11 | Exiting the Function: list_departments
