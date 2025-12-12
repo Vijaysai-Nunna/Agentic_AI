@@ -31,12 +31,19 @@ A complete FastAPI backend that manages events, venues, and ticket booking with 
 🔧 Features
 
 -Secure JWT authentication for Admin & User
+
 -Role-based access control
+
 -Event & venue management (CRUD)
+
 -Real-time seat availability + rollback on cancellation
+
 -Ticket booking, updating, and cancellation APIs
+
 -MongoDB (async) integration for scalable performance
+
 -Clean modular structure with routers, services, and utils
+
 -Centralized logging & exception handling
 
 ---
